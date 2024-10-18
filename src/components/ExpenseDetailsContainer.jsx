@@ -1,5 +1,5 @@
-import Expense from "./Expense";
-import ExpenseList from "./ExpenseList";
+import Expense from "./Expense.jsx";
+import ExpenseList from "./ExpenseList.jsx";
 
 const ExpenseDetailsContainer = ({
   totalBalance,

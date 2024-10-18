@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Categories from "./Categories";
+import Categories from "./Categories.jsx";
 
 const ExpenseTracker = ({ onSave }) => {
   const incomeCategories = [

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ExpenseDetailsContainer from "./ExpenseDetailsContainer";
-import ExpenseTracker from "./ExpenseTracker";
+import ExpenseDetailsContainer from "./ExpenseDetailsContainer.jsx";
+import ExpenseTracker from "./ExpenseTracker.jsx";
 
 const MainContainer = () => {
   const [incomes, setIncomes] = useState([]);

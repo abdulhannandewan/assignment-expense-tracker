@@ -1,9 +1,8 @@
-import ExpenseListHeader from "./ExpenseListHeader";
-import List from "./list";
+import ExpenseListHeader from "./ExpenseListHeader.jsx";
+import List from "./list.jsx";
 
-const ExpenseList = ({ listTitle, lists,handleEdit }) => {
+const ExpenseList = ({ listTitle, lists, handleEdit }) => {
   // console.log(lists.length);
-
   return (
     <div className="border rounded-md relative">
       {/* Header */}
