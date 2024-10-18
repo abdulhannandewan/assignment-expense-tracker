@@ -1,5 +1,5 @@
 import ExpenseListHeader from "./ExpenseListHeader.jsx";
-import List from "./list.jsx";
+import List from "./List.jsx";
 
 const ExpenseList = ({ listTitle, lists, handleEdit }) => {
   // console.log(lists.length);
